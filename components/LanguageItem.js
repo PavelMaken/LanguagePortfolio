@@ -16,6 +16,7 @@ const LanguageItem = ({ lang, experience }) => {
   );
 };
 
+
 const styles = StyleSheet.create({
   itemContainer: {
     flexDirection: 'row',
