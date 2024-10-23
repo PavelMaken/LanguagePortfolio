@@ -6,7 +6,6 @@ const App = () => {
   const [languages, setLanguages] = useState([
     { id: '1', lang: 'JavaScript', experience: 3 },
     { id: '2', lang: 'Python', experience: 2 },
-    { id: '3', lang: 'C++', experience: 4 },
   ]);
 
   const [refreshing, setRefreshing] = useState(false);
@@ -17,8 +16,6 @@ const App = () => {
       setLanguages([
         { id: '1', lang: 'JavaScript', experience: 4 },
         { id: '2', lang: 'Python', experience: 3 },
-        { id: '3', lang: 'C++', experience: 5 },
-        { id: '4', lang: 'Go', experience: 1 },
       ]);
       setRefreshing(false);
     }, 2000);
